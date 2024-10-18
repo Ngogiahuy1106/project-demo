@@ -5,7 +5,7 @@ import UsedCars from './components/UsedCars';
 import Compare from './components/Compare';
 import Sell from './components/Sell';
 import Article from './components/Article';
-import Signin from './components/Signin';  
+// import Signin from './components/Signin';  
 import Register from './components/Register'; 
 import Navbar from './Navbar';
 import Home from './components/Home'; 
@@ -344,7 +344,7 @@ const App = () => {
             <Route path="/compare" element={<Compare />} />
             <Route path="/sell" element={<Sell />} />
             <Route path="/article" element={<Article />} />
-            <Route path="/signin" element={<Signin />} />
+            {/* <Route path="/signin" element={<Signin />} /> */}
             <Route path="/register" element={<Register />} /> 
             <Route path="/car-detail/:carId" element={<CarDetail carData={carData} />} />
             <Route path="*" element={<NotFound />} />
