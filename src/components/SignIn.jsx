@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './SignIn.css';
 
-const Signin = () => {
+export default Signin = () => {
   return (
     <div className="grid">
       <form action="" className='display'>
@@ -24,4 +24,4 @@ const Signin = () => {
   );
 };
 
-export default Signin;
+// export default  Signin;
